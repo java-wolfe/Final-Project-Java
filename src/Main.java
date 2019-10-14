@@ -8,8 +8,6 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
         int roomChoice;
-        int yesNo;
-        int yesNoOne;
         int quitChoice = 999;
 
         do {
@@ -23,23 +21,6 @@ public class Main {
             if (roomChoice == 1) {
                 System.out.println("You started to walk down the right path.");
                 Graphics.directionRight();
-                System.out.println("You come across an old warehouse, with a sign that reads Johns Construction!");
-                System.out.println("Do you want to explore the warehouse? \n1 - Yes \n2 - No");
-                yesNo = input.nextInt();
-
-                if (yesNo == 1) {
-                    System.out.println("You make your way into the warehouse and see a lot of dust and comb webs... " +
-                            "\nOn the ground next to an old machine you find a lead pipe, do you want to pick it up \n1 - yes \n2 - no");
-                    yesNoOne = input.nextInt();
-
-                    if (yesNoOne == 1){
-                        System.out.println("You pick up the lead pipe and keep walking, you find nothing in the warehouse... So you leave");
-                        System.out.println("You come back to the 3 directions and now have to choice again");
-                    }
-
-                } else if (yesNo == 2) {
-                    System.out.println("You walk back to the intersection to explore some more.");
-                }
 
             }
             else if (roomChoice == 2) {
