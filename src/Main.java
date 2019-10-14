@@ -7,7 +7,7 @@ public class Main {
         //This is the main for the project and we'll call the other ones here.
 
         Scanner input = new Scanner(System.in);
-        int userDirection1;
+        int userDirection;
         int yesNo;
         int yesNoOne;
         int quitChoice = 999;
@@ -18,9 +18,9 @@ public class Main {
             System.out.println("Up a head you see an intersection now you have to choose with direction you want to go.");
             System.out.println("Enter \n1 - right \n2 - straight \n3 - left \n999 - Quit the game");
             Graphics.defaultStart();
-            userDirection1 = input.nextInt();
+            userDirection = input.nextInt();
 
-            if (userDirection1 == 1) {
+            if (userDirection == 1) {
                 System.out.println("You started to walk down the right path.");
                 Graphics.directionRight();
                 System.out.println("You come across an old warehouse, with a sign that reads Johns Construction!");
@@ -42,12 +42,12 @@ public class Main {
                 }
 
             }
-            else if (userDirection1 == 2) {
+            else if (userDirection == 2) {
                 System.out.println("You started to walk straight down the path.");
                 Graphics.directionStraight();
 
             }
-            else if (userDirection1 == 3) {
+            else if (userDirection == 3) {
                 System.out.println("You start to walk down the left path.");
                 Graphics.directionLeft();
             }
