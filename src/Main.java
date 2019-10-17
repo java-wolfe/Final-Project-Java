@@ -21,7 +21,7 @@ public class Main {
             if (roomChoice == 1) {
                 System.out.println("You started to walk down the right path.");
                 Graphics.directionRight();
-
+                Room1.storyForRoomOne();
             }
             else if (roomChoice == 2) {
                 System.out.println("You started to walk straight down the path.");
