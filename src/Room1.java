@@ -22,6 +22,7 @@ public class Room1 {
            System.out.println("You open the door and a monster jumps at you, but you are prepared and you smack it in the " +
                    "\nmouth with the pipe you picked up back at the entrance of the warehouse ");
            System.out.println("That swing did " + rand_pick + " damage to the monster, the monster swings back and scratches you.");
+           System.out.println("The scratch did " + rand_pick + " damage to you, you must protect yourself.");
        }
        else if (userChoice == 2){
            System.out.println("You decided to walk past the pipe and explore with out");
@@ -32,5 +33,4 @@ public class Room1 {
        }
 
    }
-
 }
