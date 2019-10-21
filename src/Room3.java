@@ -16,7 +16,7 @@ public class Room3 {
         System.out.println("you walk across an abandoned store, Should you go in or walk past it?");
         System.out.println("1 - Yes Go Into The Store \n2 - No Just Keep Walking");
         userChoice = input.nextInt();
-
+        
         if (userChoice == 1){
             System.out.println("You go into the store for supplies you might need");
             System.out.println("As you walk in the store you see a metal bat on the ground");
